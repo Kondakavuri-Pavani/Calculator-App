@@ -1,0 +1,101 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e9ecef; /* Light gray background for the page */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean font */
+  margin: 0;
+}
+
+/* Calculator container styling */
+.calculator {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #ffffff; /* Clean white background */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+  width: 400px; /* Fixed width for the calculator */
+}
+
+/* Title styling */
+.title {
+  text-align: center; /* Center the text horizontally */
+  color: #333; /* Darker color for title */
+  margin: 10px 0; /* Spacing above and below the title */
+  font-size: 2.5em; /* Larger font size for the title */
+  font-weight: bold; /* Make title bold */
+}
+
+/* Input field styling */
+.input {
+  width: calc(100% - 20px); /* Adjust input width */
+  padding: 15px; /* Increased padding for better touch */
+  font-size: 2em; /* Larger font size for input */
+  margin-bottom: 20px;
+  border-radius: 10px; /* Rounded corners */
+  border: 2px solid #6c757d; /* Gray border */
+  text-align: right;
+  background-color: #f8f9fa; /* Light gray background for input */
+}
+
+/* Grid layout for calculator buttons */
+.calculator-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four columns */
+  gap: 10px; /* Space between buttons */
+}
+
+/* Button styling */
+.button {
+  padding: 20px;
+  font-size: 1.5em; /* Slightly larger font size */
+  border-radius: 10px; /* Rounded corners */
+  color: #ffffff; /* White text */
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s; /* Smooth transition */
+}
+
+/* Button colors */
+.button {
+  background-color: #6c757d; /* Soft blue for default buttons */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Operator button styling */
+.button-symbol {
+  background-color: #6c757d; /* Gray for operators */
+}
+
+.button-symbol:hover {
+  background-color: #6c757d; /* Darker gray on hover */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Styling for special buttons (C and ⌫) */
+.button.special {
+  background-color: #dc3545; /* Red for C and ⌫ buttons */
+}
+
+.button.special:hover {
+  background-color: #c82333; /* Darker red on hover */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Accent button styles for division and multiplication */
+.button:nth-child(4),
+.button:nth-child(8),
+.button:nth-child(12) {
+  background-color: #6c757d; /* Orange for division and multiplication */
+}
+
+.button:nth-child(4):hover,
+.button:nth-child(8):hover,
+.button:nth-child(12):hover {
+  background-color: ; /* Darker orange on hover */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
