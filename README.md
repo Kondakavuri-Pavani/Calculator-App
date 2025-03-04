@@ -22,7 +22,8 @@ Before running the application, make sure all dependencies are installed.
    > `npm run dev`
 
 Project Demo
-![image](https://github.com/user-attachments/assets/0ef1ac47-7a35-4279-9f6f-b2bdd2566a23)
+![image](https://github.com/user-attachments/assets/cff724ed-7a9a-4e37-9dbc-57b1ca37904b)
+
 
 
 
